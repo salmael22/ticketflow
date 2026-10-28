@@ -24,7 +24,12 @@
     </properties>
 
     <modules>
-        <module>services/customer-service</module>
+
+            <module>services/customer-service</module>
+            <module>services/gateway-api</module>
+            <module>services/discovery-server</module>
+            <module>services/config-server</module>
+
     </modules>
 
     <dependencyManagement>
